@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diario_users",
+  "info": {
+    "singularName": "diario-user",
+    "pluralName": "diario-users",
+    "displayName": "Diario_User",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipoEstudo": {
+      "type": "integer",
+      "default": 1
+    },
+    "disciplinaId": {
+      "type": "integer"
+    },
+    "tempoEstudo": {
+      "type": "integer"
+    },
+    "quantidadeQuestoes": {
+      "type": "integer"
+    },
+    "anotacao": {
+      "type": "string"
+    },
+    "data": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "integer",
+      "required": true
+    },
+    "planoId": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disciplinas_defaults",
+  "info": {
+    "singularName": "disciplinas-default",
+    "pluralName": "disciplinas-defaults",
+    "displayName": "Disciplinas_Default",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "dia": {
+      "type": "integer",
+      "default": 0
+    },
+    "ciclo": {
+      "type": "integer",
+      "default": 0
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

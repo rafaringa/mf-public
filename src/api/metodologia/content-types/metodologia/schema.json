@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metodologias",
+  "info": {
+    "singularName": "metodologia",
+    "pluralName": "metodologias",
+    "displayName": "Metodologias"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

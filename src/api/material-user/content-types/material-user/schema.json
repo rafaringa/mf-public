@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "material_users",
+  "info": {
+    "singularName": "material-user",
+    "pluralName": "material-users",
+    "displayName": "Material_User"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": false,
+      "default": "PDF"
+    },
+    "disciplinaId": {
+      "type": "integer",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "default": "upcoming"
+    },
+    "anotacao": {
+      "type": "json"
+    },
+    "lastPage": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metodo_revisoes",
+  "info": {
+    "singularName": "metodo-revisao",
+    "pluralName": "metodo-revisoes",
+    "displayName": "Metodo-Revisão"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

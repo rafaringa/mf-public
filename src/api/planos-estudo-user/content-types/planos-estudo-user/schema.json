@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "planos_estudo_users",
+  "info": {
+    "singularName": "planos-estudo-user",
+    "pluralName": "planos-estudo-users",
+    "displayName": "PlanosEstudo-User",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "integer",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "uuid": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "disciplinas": {
+      "type": "text",
+      "default": "[]"
+    },
+    "itens": {
+      "type": "json"
+    },
+    "sigla": {
+      "type": "string"
+    }
+  }
+}

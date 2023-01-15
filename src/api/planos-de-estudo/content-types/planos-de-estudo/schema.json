@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "planos_de_estudos",
+  "info": {
+    "singularName": "planos-de-estudo",
+    "pluralName": "planos-de-estudos",
+    "displayName": "PlanosEstudo_Default",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "disciplinasDefault": {
+      "type": "json"
+    },
+    "header_img": {
+      "type": "string"
+    },
+    "itens": {
+      "type": "json"
+    },
+    "sigla": {
+      "type": "string"
+    }
+  }
+}

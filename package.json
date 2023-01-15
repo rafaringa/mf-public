@@ -1,0 +1,31 @@
+{
+  "name": "focado-api",
+  "private": true,
+  "version": "1.1.1",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/strapi": "4.5.5",
+    "date-fns": "^2.29.3",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "0a5f8e98-e05e-4554-a134-64f9a6280e62"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
